@@ -5,7 +5,7 @@ def roll_call_dwarves(array)
     hash[index] = item
   end
 
-  hash.each_with_index do |item, index|
+  hash.each_with_index do |index, item|
     puts "#{index + 1}. #{item}"
   end
 
