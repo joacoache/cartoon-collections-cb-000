@@ -12,6 +12,10 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  x = 0
+  array.map do |i|
+    i[x] = i.capitalize + "!"
+    X += 1
 
 end
 
