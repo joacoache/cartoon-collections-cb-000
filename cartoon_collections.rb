@@ -7,8 +7,8 @@ def roll_call_dwarves(array)
 
   hash.each_with_index do |item, index|
     puts "#{index}. #{item}"
-  end  
-    
+  end
+
 end
 
 def summon_captain_planet(array)
