@@ -1,12 +1,12 @@
 def roll_call_dwarves(array)
   hash = {}
 
-  %w(roll_call_dwarves).each_with_index do |item, index|
+  array.each_with_index do |item, index|
     hash[index] = item
   end
 
-#  hash.each_with_index do |item, index|
-#    puts "#{index}. #{item}"
+  hash.each_with_index do |item, index|
+    puts "#{index}. #{item}"
   end
 
 end
